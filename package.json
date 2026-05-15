@@ -1,0 +1,33 @@
+{
+  "name": "flow-designer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/x6": "^3.1.7",
+    "@antv/x6-vue-shape": "^3.0.2",
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.14.0",
+    "dayjs": "^1.11.20",
+    "element-plus": "^2.13.6",
+    "lodash-es": "^4.17.23",
+    "monaco-editor": "^0.55.1",
+    "nanoid": "^5.1.7",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "tslib": "^2.8.1",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.4",
+    "vite-plugin-monaco-editor": "^1.1.0"
+  }
+}
